@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">WOTC</string>
+
+    <string name="start">Start</string>
+    <string name="first">First Station</string>
+    <string name="second">Second Station</string>
+    <string name="Third">Third Station</string>
+    <string name="fourth">Fourth Station</string>
+    <string name="fifth">Fifth Station</string>
+    <string name="sixth">Sixth Station</string>
+    <string name="seventh">Seventh Station</string>
+    <string name="eight">Eight Station</string>
+    <string name="ninth">Ninth Station</string>
+    <string name="ten">Tenth Station</string>
+    <string name="eleven">Eleventh Station</string>
+    <string name="twelve">Twelfth Station</string>
+    <string name="thirteen">Thirteen Station</string>
+    <string name="fourteen">Fourteen Station</string>
+    <string name="fifteen">Fifteen Station</string>
+
+    <string-array name="Days">
+        <item>@string/start</item>
+        <item>@string/first</item>
+        <item>@string/second</item>
+        <item>@string/Third</item>
+        <item>@string/fourth</item>
+    </string-array>
+</resources>

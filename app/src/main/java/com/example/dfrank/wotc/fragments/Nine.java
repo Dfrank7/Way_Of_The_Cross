@@ -17,13 +17,15 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 /**
- * Created by dfrank on 2/15/18.
+ * Created by dfrank on 2/17/18.
  */
 
-public class Six extends Fragment {
+public class Nine extends Fragment {
     Unbinder unbinder;
-    @BindView(R.id.title) TextView title;
-    @BindView(R.id.images) ImageView imageView;
+    @BindView(R.id.title)
+    TextView title;
+    @BindView(R.id.images)
+    ImageView imageView;
     @BindView(R.id.verse) TextView verse;
     @BindView(R.id.reply) TextView reply;
     @BindView(R.id.reading) TextView reading;
@@ -36,13 +38,13 @@ public class Six extends Fragment {
         View view = inflater.inflate(R.layout.general, container,false);
         unbinder = ButterKnife.bind(this, view);
         Glide.with(this)
-                .load(R.drawable.seven)
+                .load(R.drawable.eight)
                 .into(imageView);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
-        reading.setText(R.string.secondReading);
-        medidate.setText(R.string.medidate2);
-        response.setText(R.string.response2);
+        reading.setText(R.string.NinthReading);
+        medidate.setText(R.string.medidate9);
+        response.setText(R.string.response9);
         return view;
     }
 }

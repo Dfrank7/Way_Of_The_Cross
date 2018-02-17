@@ -45,13 +45,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void prepareData(){
-        adddata(new One(), "Fiesrt station");
-        adddata(new Two(), "Secon station");
-        adddata(new Three(), "Thied station");
-        adddata(new Four(), "Fouth station");
+        adddata(new One(), "First station");
+        adddata(new Two(), "Second station");
+        adddata(new Three(), "Third station");
+        adddata(new Four(), "Fourth station");
         adddata(new Five(), "Fifth station");
-        adddata(new Six(), "Six station");
-        adddata(new Seven(), "Seven station");
+        adddata(new Six(), "Sixth station");
+        adddata(new Seven(), "Seventh station");
     }
 
 }

@@ -25,10 +25,10 @@ public class One extends Fragment {
     @BindView(R.id.title) TextView title;
     @BindView(R.id.images) ImageView imageView;
     @BindView(R.id.verse) TextView verse;
-    @BindView(R.id.reply) TextView response;
+    @BindView(R.id.reply) TextView reply;
     @BindView(R.id.reading) TextView reading;
     @BindView(R.id.medidate) TextView medidate;
-    @BindView(R.id.response) TextView response1;
+    @BindView(R.id.response) TextView response;
 
     public One(){
 
@@ -42,10 +42,10 @@ public class One extends Fragment {
                 .load(R.drawable.nine)
                 .into(imageView);
         verse.setText(R.string.verse);
-        response.setText(R.string.reply);
+        reply.setText(R.string.reply);
         reading.setText(R.string.FirstReading);
         medidate.setText(R.string.medidate1);
-        response1.setText(R.string.response1);
+        response.setText(R.string.response1);
         return view;
     }
 

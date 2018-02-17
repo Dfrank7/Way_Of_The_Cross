@@ -22,10 +22,13 @@ import butterknife.Unbinder;
 
 public class Seven extends Fragment {
     Unbinder unbinder;
-    @BindView(R.id.title)
-    TextView title;
-    @BindView(R.id.images)
-    ImageView imageView;
+    @BindView(R.id.title) TextView title;
+    @BindView(R.id.images) ImageView imageView;
+    @BindView(R.id.verse) TextView verse;
+    @BindView(R.id.reply) TextView reply;
+    @BindView(R.id.reading) TextView reading;
+    @BindView(R.id.medidate) TextView medidate;
+    @BindView(R.id.response) TextView response;
 
     public Seven(){}
 
@@ -37,6 +40,11 @@ public class Seven extends Fragment {
         Glide.with(this)
                 .load(R.drawable.five)
                 .into(imageView);
+        verse.setText(R.string.verse);
+        reply.setText(R.string.reply);
+        reading.setText(R.string.secondReading);
+        medidate.setText(R.string.medidate2);
+        response.setText(R.string.response2);
         return view;
     }
 }

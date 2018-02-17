@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">WOTC</string>
 
     <string name="start">Start</string>
@@ -17,12 +17,191 @@
     <string name="thirteen">Thirteen Station</string>
     <string name="fourteen">Fourteen Station</string>
     <string name="fifteen">Fifteen Station</string>
+    <string name="verse">We adore You, O Christ, and we praise You.</string>
+    <string name="reply">Because by your holy Cross You have redeemed the world.</string>
 
-    <string-array name="Days">
-        <item>@string/start</item>
-        <item>@string/first</item>
-        <item>@string/second</item>
-        <item>@string/Third</item>
-        <item>@string/fourth</item>
-    </string-array>
+
+    <string name="FirstReading">If the world hates you, know that it has hated me before you. If you were
+of the world, the world would love what is its own. Because you are not
+of the world, but I have chosen you out of the world, therefore the world
+hates you. Remember the word that I have spoken to you: No servant is
+greater than his master. If they have persecuted me, they will persecute
+you also.
+(John 15:18-20)</string>
+    <string name="PrayerOne">O God, to free us from sin and weakness your Son, Jesus Christ,
+embraced his fearful passion and crucifixion. Strengthen us to our
+baptismal resolutions by which we renounced sin and Satan, so that
+through the passion of this life's sufferings we might rise to a new life of
+joyful service free of all selfishness. Amen.  </string>
+
+    <string name="medidate1">Jesus, most innocent, who neither did nor could commit a sin, was condemned
+        to death, and morever, to the most ignominious death of the cross. To remain a friend of caesar,
+        Pilate delivered him into the hands of his enemies. A fearful crime to condemn an innocent to
+        death, and to offend God in order not to displease men!</string>
+    <string name="response1">O innocent Jesus, having sinned, I am guilty of eternal death, but Thou
+        willingly dost accept the unjust sentence of death, that I might live. For whom, then shall I
+        henceforth live, if not for you my Lord? Should I desire to please men, I could not be your servant.
+        Let me, therefore, rather displease men and all the world, than not please you, O jesus.</string>
+    <string name="medidate2">When our Saviour beheld the cross, He most willingly stretched out his
+        bleeding arms, lovingly embraced it, and tenderly kissed it, and placing it on his bruised
+        shoulders, He, although almost exhausted, joyfully carried it.</string>
+    <string name="response2">O my jesus, I cannot be your friend and follower, if I refuse to carry
+        the cross. O dearly beloved cross! I embraced you, I kiss you, I joyfully accept you from the
+        hands of God. Far be it from me to glory in anything, save in the cross of my Lord and Redeemer.
+        By it the world shall be crucified to me and I to the world, that I may be thine forever.</string>
+    <string name="medidate3">Our dear Saviour, carrying the cross, was so weakened by its heavy weight as to fall exhausted to
+the ground. Our sins and misdeeds were the heavy burden which oppressed him, the cross was to
+him light and sweet, but our sins were galling insupportable.</string>
+    <string name="response3">O my jesus, You did bear my burden and the heavy weight of my sins. Should I then not bear in
+union with you, my easy burden of suffering and accept the sweet yoke of your commandments? I
+therefore willingly accept it. I will take up my cross and follow you.</string>
+    <string name="medidate4">How painful and how sad it must have been for Mary, the sorrowful mother, to behold her beloved
+her son, laden with the burden of the cross, What unspeakable pangs her most tender heart
+experienced! How earnestly did she desire to die in place of jesus, or at least with him, Implore this
+sorrowful Mother that she assists you in the hour of death.</string>
+    <string name="response4">O jesus, O Mary, I am the cause of the great and manifold pains which pierce your loving hearts!
+Oh, that also my heart would feel and experience at least some of your sufferings! O mother of
+sorrows, let me participate in the sufferings which thou and thy son endured for me, and let me
+experience the sorrow, that afflicted with thee, I may enjoy your assistance in hour of my death.</string>
+    <string name="medidate5">Simon of Cyrene was compelled to help Jesus carry his own cross, and Jesus accepted his
+assistance. How willingly would he permit you to carry the cross: He calls, but you hear him not;
+He invites you, but you decline. What a reproach, to bear the cross reluctantly!</string>
+    <string name="response5">O jesus! Whosoever does not take his cross and follow you, is not worthy of you. Behold, I join you
+in the way of your Cross; I will be your assistant, following your bloody footsteps, that I may come
+to you in eternal life.</string>
+    <string name="medidate6">Veronica, impelled by the devotion and compassion, presents her veil to Jesus to wipe his disfigured
+face. And Jesus imprints on it his Holy countenance: a great recompense for so small a service.
+What return do you make to your Saviour for his great and manifold benefits?</string>
+    <string name="response6">Most merciful Jesus! What a return shall I make for all the benefits you have bestowed upon me?
+Behold, I consecrate myself entirely to your service. I offer and consecrate to you my heart, imprint
+on it your sacred image, never again to be effaced by sin.</string>
+    <string name="medidate7">The suffering Jesus, under the weight of his Cross, again falls to the ground; but the cruel
+executioners do not permit him to rest a moment. Pushing and striking him, they urge him onward.
+It is frequent repetition ot our sins which oppress Jesus. Witnessing this, how can I continue to sin?</string>
+    <string name="response7">O jesus, Son of David, have mercy on me! Offer me your helping hand, and aid me, that I may not
+fall again into my former sins. From this very moment, I will earnestly strive to reform: nevermore
+will I sin! Thou, O sole support for the weak, by your grace, without which I can do nothing,
+strengthen me to carry out faithfully this my resolution.</string>
+    <string name="medidate8">Those devoted women, moved by compassion, weep over the suffering Saviour. But he turns to
+them, saying: Weep not for me, Who am innocent, but weep for yourselves and children. Weep thou
+also, for there is nothing pleasing to our Lord and nothing more profitable for yourself, than tears
+shed from contrition for my sins.</string>
+    <string name="response8">O jesus, who shall give to my eyes a torrent of tears, that day and night I may weep for my sins? I
+beseech you through the bitter and bloody tears, to move my heart by your divine grace, so that
+from my eyes tears may flow abundantly, and that I may weep all my days over your suffering, and
+still more over their cause, my sin</string>
+    <string name="medidate9">Jesus, arriving exhausted at the foot of Calvary, falls for the third time to the ground. His love for
+us, however, is not diminshed, not extinguished. What a fearfully oppressive burden our sins must
+be to cause Jesus to fall so often! Had he, however not taken them upon himself, they would have
+plunged us into abyss of Hell.</string>
+    <string name="response9">Most merciful Jesus, I return to you infinite thanks for not permitting me to continue in sin and to
+fall, as I have so often deserved, into depths of Hell. Enkindle in me an earnest desire of amendment
+; let me never relapse, but vouchsafe me the grace to persevere in penance to the end of my life.</string>
+    <string name="medidate10">When our Saviour had arrived on calvary, He was cruelly despoiled of his garments. How painfully
+this must have been because they adhered to his wounded and torn body, and with them parts of his
+bloody skin were removed! All the wounds of jesus are renewed. Jesus was despoiled of his
+garment that he might die possessed of nothing; how happy will I also die after laying aside my
+former self with all evil desires sinful inclinations.</string>
+    <string name="response10">Induce me, O jesus, to lay aside my former self and to be renewed according to your will and
+desiire. I will not spare myself, however painful this should be for me: despoiled of things temporal,
+of my own will, I desire to die, I order to live for you forever.</string>
+    <string name="medidate11">Jesus, being stripped of His garments, was violently thrown upon the cross and his hands and feet
+nailed. In such excruciating pains he remained silent, because it pleased his Heavenly Father. He
+suffered patiently, because he suffered for me. How do I act in sufferings and troubles? How freftful
+and impatient, how full of complaints I am.</string>
+    <string name="response11">O Jesus, gracious lamp of God, I renounce forever my impatience. Crucify, O Lord, my flesh and its
+concupiscences; scourge, scathe, and punish me in this world, do but spare me in the next. I commit
+my destiny to you, resigning myself to your holy will: may it be done in all things.</string>
+    <string name="medidate12">Behold Jesus crucified, Behold his wounds, received for love of you! His whole appearance betoken
+love: His head is bent to kiss you; His arms are extended to embrace you; His heart is open to
+receive you. O superabundance of love, Jesus, the Son of God, dies upon the cross, that man may
+live and be delivered from everlasting death.</string>
+    <string name="response12">O most amiable Jesus, Who will grant me that I may die for you, I will at least endeavour to die to
+the world. How must I regard the whole world and its vanities, when I behold you hanging on the
+cross, covered with wounds? O jesus, receive me into your wonderful heart: I belong entirely to
+you, for you alone do I desire to live and die.</string>
+    <string name="medidate13">Jesus did not descend from the cross but remained on it until he died. And when taken from it, He in
+death as in life, rested on the bosom of his divine Mother. Persevere in your resolutions of reform
+and do not part from the cross; he who persevereth to the end shall be saved. Consider moreover,
+how pure the heart should be that receives the body and blood of Christ in the adorable Sacrament
+of the Altar.</string>
+    <string name="response13">O lord jesus, Thy lifeless body, mangled and lacerated, found a worthy resting place on the bosom
+of your virgin mother. Have I not often compelled you to dwell in my heart, full of sin and impurity
+as it was? Create in me a new heart, that I may worthily receive your most sacred body in Holy
+Communion, and that you may remain in me and I in tou for all eternity.</string>
+    <string name="medidate14">The body of Jesus is interred in a stranger’s sepulcher. He who in this world had not whereupon to
+rest his head, would not even have a grave of his own, because he was not from this world. You who
+are so attached to the world, henceforth despise it, that you may not perish with it.</string>
+    <string name="response14">O jesus, Thou hast set me apart from the world; what, then shall I seek there in? Depart from me
+deceitful world, with his her vanities! Henceforth I will follow the Way of the Cross traced out for
+me by my Redeemer, and journey onward to my heavenly home, there to dwell forever and ever.</string>
+    <string name="secondReading">And Pilate said to the Jews, "Behold, your king!" But they cried out,
+"Away with him! Away with him! Crucify him!" Pilate said to them,
+"Shall I crucify your king?" The chief priests answered, "We have no king
+but Caesar." Then he handed him over to them to be crucified. And so
+they took Jesus and led him away, bearing the cross for himself. (John
+19:14-17)</string>
+    <string name="ThirdReading">If the world hates you, know that it has hated me before you. If you were
+of the world, the world would love what is its own. Because you are not
+of the world, but I have chosen you out of the world, therefore the world
+hates you. Remember the word that I have spoken to you: No servant is
+greater than his master. If they have persecuted me, they will persecute
+you also. (John 15:18-20)</string>
+    <string name="FifthReading">And when they had mocked Jesus, they took the purple cloak off and put
+his own clothes on him and they led him out to be crucified. Then they
+forced a certain passer-by, Simon of Cyrene, coming from the country, to
+take up his cross. They brought Jesus to the place called Golgotha, a name
+meaning "the place of the skull." (Mt. 15:20-22)</string>
+    <string name="SixthReading">"Lord, when did we see you hungry, and feed you; or thirsty, and give
+you drink? And when did we see you a stranger, and take you in; or
+naked, and clothe you? Or when did we see you sick, or in prison, and
+come to you?" And answering the king will say to them, ''Amen, I say to
+you, as long as you did it for one of these, the least of my brethren, you
+did it for me." (Mt. 25:37-40)</string>
+    <string name="NinthReading">I lie prostrate in the dust; give me life according to your word. I declared
+my ways, and you answered me; teach me your commands. Make me
+understand the way of your precepts, and I will meditate on your
+wondrous deeds. My soul weeps for sorrow; strengthen me with your
+words. (Ps. 118:25-28)</string>
+    <string name="SeventhReading">It was our weaknesses that he carried, our sufferings that he endured,
+while we thought of him as stricken, as one struck by God and afflicted.
+But he was pierced for our offenses, crushed for our sins; upon him was
+the punishment that makes us whole, by his stripes we were healed. We
+had all gone astray like sheep, each following his own way; but the Lord
+laid upon him the guilt of us all. (Is. 53:4-6)</string>
+    <string name="EightReading">There was following Jesus a great crowd of people, and among them
+were some women who were bewailing and lamenting him. Jesus turning
+to them said, "Daughters of Jerusalem, do not weep for me but weep for
+yourselves and for your children." (Luke 23:27-28)</string>
+    <string name="TenthStation">They gave Jesus wine to drink mixed with gall; but when he had tasted it,
+He would not drink. Then, after they had crucified him, they divided his
+clothes, casting lots, to fulfill what was spoken through the prophet:
+''They divided my clothes among them, and upon my garment they cast
+lots.'' (Mt. 27:34-35)</string>
+    <string name="EleventhStation">When they came to Golgotha, the place called the Skull, they crucified
+Jesus and the robbers, one on his right and the other on his left. And Jesus
+said, "Father, forgive them for they do not know what they are doing."
+(Luke 23:33-35; John 19:18)</string>
+    <string name="TwelfthStation">It was now about the sixth hour, and there was darkness over the whole
+land until the ninth hour, And the sun was darkened, and the curtain of
+the temple was torn in the middle. Jesus cried out with a loud voice and
+said, "It is finished. Father, into your hands I commend my spirit." Then,
+bowing his head, he died. (Luke 23:44-46; John 19:30b)</string>
+    <string name="ThiteenthStation">When the soldiers came to Jesus, they saw that he was already dead so
+that they did not break his legs, but one of them opened his side with a
+lance, and immediately there came out blood and water. Joseph of
+Arimathea, because he was a disciple of Jesus (although a secret one for
+fear of the Jews), besought Pilate that he might take away the body of
+Jesus And Pilate gave permission. (John 19:33-34,38a)</string>
+    <string name="FourteenthStation">Joseph of Arimathea took the body of Jesus, and wrapping it in a clean
+linen cloth he laid it in his new tomb, which he had hewn out of rock.
+Then he rolled a large stone against the entrance of the tomb and
+departed. (Mt. 27:59-60)</string>
+    <string name="FouthStation" tools:ignore="StringEscaping">Now there were standing by the cross of Jesus his mother and his
+mother's sister, Mary of Cleophas, and Mary Magdalene. When Jesus,
+therefore, saw his mother and the disciple standing by, whom he loved,
+he said to his mother, "Woman, behold, your son." Then he said to the
+disciple, "Behold, your mother." And from that hour the disciple took her
+into his home. (John 19:25-27)</string>
+
 </resources>

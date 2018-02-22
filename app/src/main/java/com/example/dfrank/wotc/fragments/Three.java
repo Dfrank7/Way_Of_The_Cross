@@ -36,7 +36,7 @@ public class Three extends Fragment {
         View view = inflater.inflate(R.layout.general, container,false);
         unbinder = ButterKnife.bind(this, view);
         Glide.with(this)
-                .load(R.drawable.four)
+                .load(R.drawable.third)
                 .into(imageView);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);

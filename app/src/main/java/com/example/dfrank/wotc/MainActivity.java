@@ -7,12 +7,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.dfrank.wotc.adapter.FragmentAdapter;
+import com.example.dfrank.wotc.fragments.Eight;
+import com.example.dfrank.wotc.fragments.Eleven;
 import com.example.dfrank.wotc.fragments.Five;
 import com.example.dfrank.wotc.fragments.Four;
+import com.example.dfrank.wotc.fragments.Fourteen;
+import com.example.dfrank.wotc.fragments.Nine;
 import com.example.dfrank.wotc.fragments.One;
 import com.example.dfrank.wotc.fragments.Seven;
 import com.example.dfrank.wotc.fragments.Six;
+import com.example.dfrank.wotc.fragments.Ten;
+import com.example.dfrank.wotc.fragments.Thirteen;
 import com.example.dfrank.wotc.fragments.Three;
+import com.example.dfrank.wotc.fragments.Twelve;
 import com.example.dfrank.wotc.fragments.Two;
 
 import java.util.ArrayList;
@@ -52,6 +59,13 @@ public class MainActivity extends AppCompatActivity {
         adddata(new Five(), "Fifth station");
         adddata(new Six(), "Sixth station");
         adddata(new Seven(), "Seventh station");
+        adddata(new Eight(), "Eight station");
+        adddata(new Nine(), "Ninth station");
+        adddata(new Ten(), "Tenth station");
+        adddata(new Eleven(),"Eleventh station");
+        adddata(new Twelve(), "Twelfth station");
+        adddata(new Thirteen(), "Thirteenth station");
+        adddata(new Fourteen(), "Fourteenth station");
     }
 
 }

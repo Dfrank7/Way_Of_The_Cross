@@ -38,7 +38,7 @@ public class Twelve extends Fragment {
         View view = inflater.inflate(R.layout.general, container,false);
         unbinder = ButterKnife.bind(this, view);
         Glide.with(this)
-                .load(R.drawable.eight)
+                .load(R.drawable.twelve)
                 .into(imageView);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);

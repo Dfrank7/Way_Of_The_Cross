@@ -38,7 +38,7 @@ public class Two extends Fragment {
         unbinder = ButterKnife.bind(this, view);
         title.setText("Hellooooo We are Testtsinnnnnhfd");
         Glide.with(this)
-                .load(R.drawable.four)
+                .load(R.drawable.two)
                 .into(imageView);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);

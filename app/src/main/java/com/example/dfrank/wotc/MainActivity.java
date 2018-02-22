@@ -1,10 +1,13 @@
 package com.example.dfrank.wotc;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import com.example.dfrank.wotc.adapter.FragmentAdapter;
 import com.example.dfrank.wotc.fragments.Eight;
@@ -68,4 +71,19 @@ public class MainActivity extends AppCompatActivity {
         adddata(new Fourteen(), "Fourteenth station");
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.about:
+                Intent intent = new Intent(this, About.class);
+                startActivity(intent);
+        }
+        return true;
+    }
 }

@@ -29,6 +29,9 @@ public class Six extends Fragment {
     @BindView(R.id.reading) TextView reading;
     @BindView(R.id.medidate) TextView medidate;
     @BindView(R.id.response) TextView response;
+    @BindView(R.id.ourFather) TextView ourFather;
+    @BindView(R.id.hailMary) TextView hailMary;
+    @BindView(R.id.glory) TextView glory;
 
     @Nullable
     @Override
@@ -43,6 +46,9 @@ public class Six extends Fragment {
         reading.setText(R.string.secondReading);
         medidate.setText(R.string.medidate2);
         response.setText(R.string.response2);
+        ourFather.setText(R.string.OurFather);
+        hailMary.setText(R.string.HailMary);
+        glory.setText(R.string.Glory);
         return view;
     }
 }

@@ -1,22 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">WOTC</string>
 
-    <string name="start">Start</string>
-    <string name="first">First Station</string>
-    <string name="second">Second Station</string>
-    <string name="Third">Third Station</string>
-    <string name="fourth">Fourth Station</string>
-    <string name="fifth">Fifth Station</string>
-    <string name="sixth">Sixth Station</string>
-    <string name="seventh">Seventh Station</string>
-    <string name="eight">Eight Station</string>
-    <string name="ninth">Ninth Station</string>
-    <string name="ten">Tenth Station</string>
-    <string name="eleven">Eleventh Station</string>
-    <string name="twelve">Twelfth Station</string>
-    <string name="thirteen">Thirteen Station</string>
-    <string name="fourteen">Fourteen Station</string>
-    <string name="fifteen">Fifteen Station</string>
+    <!--<string name="start">Start</string>-->
+    <!--<string name="first">First Station</string>-->
+    <!--<string name="second">Second Station</string>-->
+    <!--<string name="Third">Third Station</string>-->
+    <!--<string name="fourth">Fourth Station</string>-->
+    <!--<string name="fifth">Fifth Station</string>-->
+    <!--<string name="sixth">Sixth Station</string>-->
+    <!--<string name="seventh">Seventh Station</string>-->
+    <!--<string name="eight">Eight Station</string>-->
+    <!--<string name="ninth">Ninth Station</string>-->
+    <!--<string name="ten">Tenth Station</string>-->
+    <!--<string name="eleven">Eleventh Station</string>-->
+    <!--<string name="twelve">Twelfth Station</string>-->
+    <!--<string name="thirteen">Thirteen Station</string>-->
+    <!--<string name="fourteen">Fourteen Station</string>-->
+    <!--<string name="fifteen">Fifteen Station</string>-->
     <string name="verse">We adore You, O Christ, and we praise You.</string>
     <string name="reply">Because by your holy Cross You have redeemed the world.</string>
 
@@ -203,5 +203,52 @@ therefore, saw his mother and the disciple standing by, whom he loved,
 he said to his mother, "Woman, behold, your son." Then he said to the
 disciple, "Behold, your mother." And from that hour the disciple took her
 into his home. (John 19:25-27)</string>
+
+    <string name="antiphon">We beseech Thee, O Lord! to assist and direct our actions by Thy powerful grace, and all
+our prayers and works may always begin and end with Thee. Through Christ our Lord.
+Amen.</string>
+    <string name="prayer">O Jesus, treasure of my soul, infinitely good, infinitely merciful, behold me prostrate at
+Thy sacred feet! Sinner as I am, I fly to the arms of Thy mercy, and implore that grace
+which melts and converts-the grace of true compunction. I have offended Thee,
+adorable Jesus! I repent; let the favor of my love equal the baseness of my ingratitude.
+This Way of the Cross, grant me to offer devoutly in memory of that painful journey
+Thou hast travelled for our redemption, to the Cross of Calvary, with the holy design to
+reform my morals, amend my life and gain these indulgences granted by Thy vicars on
+earth. I apply one for my miserable soul, the rest in suffrage for the souls in purgatory,
+particularly N.N. [Here mention the souls for whom you intend to apply them.] I begin
+this devotion under Thy sacred protection, and in imitation of Thy dolorous Mother. Let
+then this holy exercise obtain for me mercy in this life, and glory in the next. Amen.
+JESUS!</string>
+    <string name="OurFather">Our Father, Who art in Heaven, hallowed be Thy name; Thy Kingdom come,
+        Thy will be done on earth as it is in Heaven. Give us this day our daily bread; and forgive
+        us our trespasses as we forgive those who trespass against us; and lead us not into temptation,
+        but deliver us from evil. Amen.
+    </string>
+    <string name="HailMary">Hail Mary full of Grace, the Lord is with thee. Blessed are thou among women
+        and blessed is the fruit of thy womb Jesus. Holy Mary Mother of God, pray for us sinners now
+        and at the hour of our death Amen. </string>
+    <string name="Glory">Glory be to the Father,and to the Son,and to the Holy Spirit:As it was in the beginning,
+        is now,and ever shall be,world without end.Amen. </string>
+
+    <string name="First">Jesus condemned to death</string>
+    <string name="Second">Jesus carries his cross</string>
+    <string name="Third">Our Lord falls the first time</string>
+    <string name="Fourth">Jesus meets his mother</string>
+    <string name="Fifth">Simon Of Cyrene helps Jesus carry his cross</string>
+    <string name="Sixth">Veronica wipes the face of Jesus</string>
+    <string name="Seventh">The second fall of Jesus</string>
+    <string name="Eight">Jesus consoles the women of Jerusalem</string>
+    <string name="Ninth">The third fall of Jesus</string>
+    <string name="Tenth">Jesus is stripped of his garments</string>
+    <string name="Eleventh">Jesus is nailed to the cross</string>
+    <string name="Twelfth">Jesus dies on the cross</string>
+    <string name="Thirteenth">Jesus is taken down from the cross</string>
+    <string name="Fourteenth">Jesus is laid in the tomb</string>
+
+    <string name="About">The Stations of the Cross, also known as the Way of the Cross,is normally prayed
+        each Friday during Lent. In this prayer, fourteen traditional events in the passion of
+        Jesus are recalled and meditated upon.  Each station is visited as the prayers are made; icons
+        or stations are traditionally hung along the perimeter of the inside walls of churches.</string>
+
 
 </resources>

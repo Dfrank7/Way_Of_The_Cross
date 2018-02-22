@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
@@ -31,6 +33,9 @@ public class Start extends Fragment {
         unbinder = ButterKnife.bind(this, view);
         antiphon.setText(R.string.antiphon);
         prayer.setText(R.string.prayer);
+        Glide.with(this)
+                .load(R.drawable.eight)
+                .into(imageView);
         return view;
     }
 }

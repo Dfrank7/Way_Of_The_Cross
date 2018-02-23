@@ -37,7 +37,7 @@ public class Start extends Fragment {
         prayer.setText(R.string.prayer);
         title.setText(R.string.OpeningP);
         Glide.with(this)
-                .load(R.drawable.eight)
+                .load(R.drawable.station_of_the_cross)
                 .into(imageView);
         return view;
     }

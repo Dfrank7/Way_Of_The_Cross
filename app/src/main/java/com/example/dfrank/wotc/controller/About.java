@@ -6,11 +6,16 @@ import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
+import com.bumptech.glide.Glide;
 import com.example.dfrank.wotc.R;
 
 import java.util.List;
@@ -26,14 +31,25 @@ public class About extends AppCompatActivity {
     @BindView(R.id.textView) TextView about;
     @BindView(R.id.developed) TextView develped;
     @BindView(R.id.name) TextView name;
+//    @BindView(R.id.toolbar)
+//    android.support.v7.widget.Toolbar toolbar;
+    @BindView(R.id.imageView2)
+    ImageView imageView;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.about);
+        setContentView(R.layout.about_main);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         ButterKnife.bind(this);
+        initCollapsingToolbar();
         about.setText(R.string.AboutWOTC);
         develped.setText(R.string.developed);
         name.setText("Oladipo Siyanbola");
+        Glide.with(this)
+                .load(R.drawable.station_of_the_cross)
+                .into(imageView);
         name.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -63,5 +79,31 @@ public class About extends AppCompatActivity {
         }else {
             Toast.makeText(this, "No app available", Toast.LENGTH_SHORT).show();
         }
+    }
+    private void initCollapsingToolbar(){
+        final CollapsingToolbarLayout collapsingToolbarLayout =
+                 findViewById(R.id.collapsing);
+        collapsingToolbarLayout.setTitle(" ");
+        AppBarLayout appBarLayout = findViewById(R.id.appbar);
+        appBarLayout.setExpanded(true);
+
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener(){
+            boolean isShow = false;
+            int scrollRange = -1;
+
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset){
+                if (scrollRange == -1){
+                    scrollRange = appBarLayout.getTotalScrollRange();
+                }
+                if (scrollRange + verticalOffset == 0){
+                    collapsingToolbarLayout.setTitle(getString(R.string.aboutPage));
+                    isShow = true;
+                }else if (isShow){
+                    collapsingToolbarLayout.setTitle(" ");
+                    isShow = false;
+                }
+            }
+        });
     }
 }

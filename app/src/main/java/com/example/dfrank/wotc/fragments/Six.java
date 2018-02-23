@@ -41,6 +41,7 @@ public class Six extends Fragment {
         Glide.with(this)
                 .load(R.drawable.six)
                 .into(imageView);
+        title.setText(R.string.Sixth);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
         reading.setText(R.string.secondReading);

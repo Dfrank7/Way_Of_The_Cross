@@ -43,6 +43,7 @@ public class Twelve extends Fragment {
         Glide.with(this)
                 .load(R.drawable.twelve)
                 .into(imageView);
+        title.setText(R.string.Twelfth);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
         reading.setText(R.string.TwelfthReading);

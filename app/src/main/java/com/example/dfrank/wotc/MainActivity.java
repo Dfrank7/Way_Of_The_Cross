@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.dfrank.wotc.adapter.FragmentAdapter;
+import com.example.dfrank.wotc.controller.About;
 import com.example.dfrank.wotc.fragments.Eight;
 import com.example.dfrank.wotc.fragments.Eleven;
 import com.example.dfrank.wotc.fragments.Five;
@@ -19,6 +20,7 @@ import com.example.dfrank.wotc.fragments.Nine;
 import com.example.dfrank.wotc.fragments.One;
 import com.example.dfrank.wotc.fragments.Seven;
 import com.example.dfrank.wotc.fragments.Six;
+import com.example.dfrank.wotc.fragments.Start;
 import com.example.dfrank.wotc.fragments.Ten;
 import com.example.dfrank.wotc.fragments.Thirteen;
 import com.example.dfrank.wotc.fragments.Three;
@@ -33,7 +35,6 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.viewPager) ViewPager viewPager;
-
     @BindView(R.id.tab) TabLayout tabLayout;
 
     List<Fragment> fragments =new ArrayList<>();
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void prepareData(){
+        adddata(new Start(), "Start");
         adddata(new One(), "First station");
         adddata(new Two(), "Second station");
         adddata(new Three(), "Third station");

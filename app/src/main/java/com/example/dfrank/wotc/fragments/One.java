@@ -44,6 +44,7 @@ public class One extends Fragment {
         Glide.with(this)
                 .load(R.drawable.one)
                 .into(imageView);
+        title.setText(R.string.First);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
         reading.setText(R.string.FirstReading);

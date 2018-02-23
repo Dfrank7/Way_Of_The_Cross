@@ -43,6 +43,7 @@ public class Seven extends Fragment {
         Glide.with(this)
                 .load(R.drawable.seven)
                 .into(imageView);
+        title.setText(R.string.Seventh);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
         reading.setText(R.string.secondReading);

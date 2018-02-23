@@ -41,6 +41,7 @@ public class Five extends Fragment {
         Glide.with(this)
                 .load(R.drawable.five)
                 .into(imageView);
+        title.setText(R.string.Fifth);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
         reading.setText(R.string.FifthReading);

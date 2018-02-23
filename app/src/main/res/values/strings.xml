@@ -17,8 +17,11 @@
     <!--<string name="thirteen">Thirteen Station</string>-->
     <!--<string name="fourteen">Fourteen Station</string>-->
     <!--<string name="fifteen">Fifteen Station</string>-->
-    <string name="verse">We adore You, O Christ, and we praise You.</string>
-    <string name="reply">Because by your holy Cross You have redeemed the world.</string>
+    <string name="verse">V: We adore You, O Christ, and we praise You.</string>
+    <string name="reply">R: Because by your holy Cross You have redeemed the world.</string>
+    <string name="reading">READING</string>
+    <string name="OpeningP">Opening Prayer</string>
+    <string name="developed">Developed By: </string>
 
 
     <string name="FirstReading">If the world hates you, know that it has hated me before you. If you were
@@ -27,7 +30,7 @@ of the world, but I have chosen you out of the world, therefore the world
 hates you. Remember the word that I have spoken to you: No servant is
 greater than his master. If they have persecuted me, they will persecute
 you also.
-(John 15:18-20)</string>
+        <i>(John 15:18-20)</i></string>
     <string name="PrayerOne">O God, to free us from sin and weakness your Son, Jesus Christ,
 embraced his fearful passion and crucifixion. Strengthen us to our
 baptismal resolutions by which we renounced sin and Satan, so that
@@ -139,70 +142,69 @@ me by my Redeemer, and journey onward to my heavenly home, there to dwell foreve
 "Away with him! Away with him! Crucify him!" Pilate said to them,
 "Shall I crucify your king?" The chief priests answered, "We have no king
 but Caesar." Then he handed him over to them to be crucified. And so
-they took Jesus and led him away, bearing the cross for himself. (John
-19:14-17)</string>
+they took Jesus and led him away, bearing the cross for himself. <i>(John
+            19:14-17)</i></string>
     <string name="ThirdReading">If the world hates you, know that it has hated me before you. If you were
 of the world, the world would love what is its own. Because you are not
 of the world, but I have chosen you out of the world, therefore the world
 hates you. Remember the word that I have spoken to you: No servant is
 greater than his master. If they have persecuted me, they will persecute
-you also. (John 15:18-20)</string>
+        you also. <i>(John 15:18-20)</i></string>
     <string name="FifthReading">And when they had mocked Jesus, they took the purple cloak off and put
 his own clothes on him and they led him out to be crucified. Then they
 forced a certain passer-by, Simon of Cyrene, coming from the country, to
 take up his cross. They brought Jesus to the place called Golgotha, a name
-meaning "the place of the skull." (Mt. 15:20-22)</string>
+        meaning "the place of the skull." <i>(Mt. 15:20-22)</i></string>
     <string name="SixthReading">"Lord, when did we see you hungry, and feed you; or thirsty, and give
 you drink? And when did we see you a stranger, and take you in; or
 naked, and clothe you? Or when did we see you sick, or in prison, and
 come to you?" And answering the king will say to them, ''Amen, I say to
 you, as long as you did it for one of these, the least of my brethren, you
-did it for me." (Mt. 25:37-40)</string>
+        did it for me." <i>(Mt. 25:37-40)</i></string>
     <string name="NinthReading">I lie prostrate in the dust; give me life according to your word. I declared
 my ways, and you answered me; teach me your commands. Make me
 understand the way of your precepts, and I will meditate on your
 wondrous deeds. My soul weeps for sorrow; strengthen me with your
-words. (Ps. 118:25-28)</string>
+        words. <i>(Ps. 118:25-28)</i></string>
     <string name="SeventhReading">It was our weaknesses that he carried, our sufferings that he endured,
 while we thought of him as stricken, as one struck by God and afflicted.
 But he was pierced for our offenses, crushed for our sins; upon him was
 the punishment that makes us whole, by his stripes we were healed. We
 had all gone astray like sheep, each following his own way; but the Lord
-laid upon him the guilt of us all. (Is. 53:4-6)</string>
+        laid upon him the guilt of us all. <i>(Is. 53:4-6)</i></string>
     <string name="EightReading">There was following Jesus a great crowd of people, and among them
 were some women who were bewailing and lamenting him. Jesus turning
 to them said, "Daughters of Jerusalem, do not weep for me but weep for
-yourselves and for your children." (Luke 23:27-28)</string>
+        yourselves and for your children." <i>(Luke 23:27-28)</i></string>
     <string name="TenthReading">They gave Jesus wine to drink mixed with gall; but when he had tasted it,
 He would not drink. Then, after they had crucified him, they divided his
 clothes, casting lots, to fulfill what was spoken through the prophet:
 ''They divided my clothes among them, and upon my garment they cast
-lots.'' (Mt. 27:34-35)</string>
+        lots.'' <i>(Mt. 27:34-35)</i></string>
     <string name="EleventhReading">When they came to Golgotha, the place called the Skull, they crucified
 Jesus and the robbers, one on his right and the other on his left. And Jesus
 said, "Father, forgive them for they do not know what they are doing."
-(Luke 23:33-35; John 19:18)</string>
+        <i>(Luke 23:33-35; John 19:18)</i></string>
     <string name="TwelfthReading">It was now about the sixth hour, and there was darkness over the whole
 land until the ninth hour, And the sun was darkened, and the curtain of
 the temple was torn in the middle. Jesus cried out with a loud voice and
 said, "It is finished. Father, into your hands I commend my spirit." Then,
-bowing his head, he died. (Luke 23:44-46; John 19:30b)</string>
+        bowing his head, he died. <i>(Luke 23:44-46; John 19:30b)</i></string>
     <string name="ThiteenthReading">When the soldiers came to Jesus, they saw that he was already dead so
 that they did not break his legs, but one of them opened his side with a
 lance, and immediately there came out blood and water. Joseph of
 Arimathea, because he was a disciple of Jesus (although a secret one for
 fear of the Jews), besought Pilate that he might take away the body of
-Jesus And Pilate gave permission. (John 19:33-34,38a)</string>
+        Jesus And Pilate gave permission. <i>(John 19:33-34,38a)</i></string>
     <string name="FourteenthReading">Joseph of Arimathea took the body of Jesus, and wrapping it in a clean
 linen cloth he laid it in his new tomb, which he had hewn out of rock.
 Then he rolled a large stone against the entrance of the tomb and
-departed. (Mt. 27:59-60)</string>
-    <string name="FouthReading" tools:ignore="StringEscaping">Now there were standing by the cross of Jesus his mother and his
-mother's sister, Mary of Cleophas, and Mary Magdalene. When Jesus,
+        departed. <i>(Mt. 27:59-60)</i></string>
+    <string name="FouthReading">Now there were standing by the cross of Jesus his mother and his mother\'s sister, Mary of Cleophas, and Mary Magdalene. When Jesus,
 therefore, saw his mother and the disciple standing by, whom he loved,
 he said to his mother, "Woman, behold, your son." Then he said to the
 disciple, "Behold, your mother." And from that hour the disciple took her
-into his home. (John 19:25-27)</string>
+        into his home. <i>(John 19:25-27)</i></string>
 
     <string name="antiphon">We beseech Thee, O Lord! to assist and direct our actions by Thy powerful grace, and all
 our prayers and works may always begin and end with Thee. Through Christ our Lord.
@@ -232,20 +234,20 @@ JESUS!</string>
 
     <string name="First">Jesus condemned to death</string>
     <string name="Second">Jesus carries his cross</string>
-    <string name="Third">Our Lord falls the first time</string>
-    <string name="Fourth">Jesus meets his mother</string>
+    <string name="Third">Jesus falls the first time</string>
+    <string name="Fourth">Jesus meets his Mother</string>
     <string name="Fifth">Simon Of Cyrene helps Jesus carry his cross</string>
     <string name="Sixth">Veronica wipes the face of Jesus</string>
     <string name="Seventh">The second fall of Jesus</string>
     <string name="Eight">Jesus consoles the women of Jerusalem</string>
-    <string name="Ninth">The third fall of Jesus</string>
+    <string name="Ninth">Jesus Falls the third time</string>
     <string name="Tenth">Jesus is stripped of his garments</string>
     <string name="Eleventh">Jesus is nailed to the cross</string>
     <string name="Twelfth">Jesus dies on the cross</string>
     <string name="Thirteenth">Jesus is taken down from the cross</string>
     <string name="Fourteenth">Jesus is laid in the tomb</string>
 
-    <string name="About">The Stations of the Cross, also known as the Way of the Cross,is normally prayed
+    <string name="AboutWOTC">The Stations of the Cross, also known as the Way of the Cross,is normally prayed
         each Friday during Lent. In this prayer, fourteen traditional events in the passion of
         Jesus are recalled and meditated upon.  Each station is visited as the prayers are made; icons
         or stations are traditionally hung along the perimeter of the inside walls of churches.</string>

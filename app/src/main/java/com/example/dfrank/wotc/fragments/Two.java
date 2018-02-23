@@ -39,7 +39,7 @@ public class Two extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.general,container,false);
         unbinder = ButterKnife.bind(this, view);
-        title.setText("Hellooooo We are Testtsinnnnnhfd");
+        title.setText(R.string.Second);
         Glide.with(this)
                 .load(R.drawable.two)
                 .into(imageView);

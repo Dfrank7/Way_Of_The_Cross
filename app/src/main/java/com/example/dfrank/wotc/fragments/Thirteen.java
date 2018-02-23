@@ -43,6 +43,7 @@ public class Thirteen extends Fragment {
         Glide.with(this)
                 .load(R.drawable.thirteen)
                 .into(imageView);
+        title.setText(R.string.Thirteenth);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
         reading.setText(R.string.ThiteenthReading);

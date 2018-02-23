@@ -26,6 +26,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            android:paddingBottom="8dp"
+            android:textColor="@color/colorPrimary"
             android:id="@+id/title"
             android:textAlignment="center" />
 
@@ -53,18 +57,28 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/verse"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:textAppearance="?android:textAppearanceMedium"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/reply"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:textAppearance="?android:textAppearanceMedium"/>
 
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reading"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
         <android.support.v7.widget.CardView
             android:id="@+id/cardView2"
             android:layout_width="match_parent"
@@ -80,6 +94,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/reading"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:textAppearance="?android:textAppearanceMedium"/>
 
@@ -101,11 +116,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/medidate"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:textAppearance="?android:textAppearanceMedium"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:id="@+id/response"
                     android:padding="5dp"
                     android:textAppearance="?android:textAppearanceMedium"/>
@@ -113,6 +130,14 @@
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OUR FATHER: "
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -127,12 +152,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/ourFather"
+                    android:textColor="@color/black"
                     android:padding="5dp"
                     android:textAppearance="?android:textAppearanceMedium"/>
 
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HAIL MARY: "
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -146,6 +180,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:id="@+id/hailMary"
                     android:padding="5dp"
                     android:textAppearance="?android:textAppearanceMedium"/>
@@ -153,6 +188,14 @@
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GLORY BE TO FATHER: "
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -166,6 +209,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:id="@+id/glory"
                     android:padding="5dp"
                     android:textAppearance="?android:textAppearanceMedium"/>

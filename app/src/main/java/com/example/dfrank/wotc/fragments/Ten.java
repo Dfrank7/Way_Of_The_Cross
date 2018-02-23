@@ -43,6 +43,7 @@ public class Ten extends Fragment {
         Glide.with(this)
                 .load(R.drawable.ten)
                 .into(imageView);
+        title.setText(R.string.Tenth);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
         reading.setText(R.string.TenthReading);

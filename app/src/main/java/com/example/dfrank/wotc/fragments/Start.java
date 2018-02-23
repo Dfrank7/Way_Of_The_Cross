@@ -1,4 +1,4 @@
-package com.example.dfrank.wotc;
+package com.example.dfrank.wotc.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.example.dfrank.wotc.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -24,6 +25,7 @@ public class Start extends Fragment {
     @BindView(R.id.images) ImageView imageView;
     @BindView(R.id.antiphon) TextView antiphon;
     @BindView(R.id.prayer) TextView prayer;
+    @BindView(R.id.title) TextView title;
     public Start(){}
 
     @Nullable
@@ -33,6 +35,7 @@ public class Start extends Fragment {
         unbinder = ButterKnife.bind(this, view);
         antiphon.setText(R.string.antiphon);
         prayer.setText(R.string.prayer);
+        title.setText(R.string.OpeningP);
         Glide.with(this)
                 .load(R.drawable.eight)
                 .into(imageView);

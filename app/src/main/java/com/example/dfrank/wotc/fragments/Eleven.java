@@ -43,6 +43,7 @@ public class Eleven extends Fragment {
         Glide.with(this)
                 .load(R.drawable.eleven)
                 .into(imageView);
+        title.setText(R.string.Eleventh);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
         reading.setText(R.string.EleventhReading);

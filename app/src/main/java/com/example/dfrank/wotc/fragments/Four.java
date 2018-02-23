@@ -41,6 +41,7 @@ public class Four extends Fragment {
         Glide.with(this)
                 .load(R.drawable.four)
                 .into(imageView);
+        title.setText(R.string.Fourth);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
         reading.setText(R.string.FouthReading);

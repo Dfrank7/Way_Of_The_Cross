@@ -43,6 +43,7 @@ public class Eight extends Fragment {
         Glide.with(this)
                 .load(R.drawable.eight)
                 .into(imageView);
+        title.setText(R.string.Eight);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
         reading.setText(R.string.EightReading);

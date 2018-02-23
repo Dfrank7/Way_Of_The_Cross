@@ -41,6 +41,7 @@ public class Three extends Fragment {
         Glide.with(this)
                 .load(R.drawable.third)
                 .into(imageView);
+        title.setText(R.string.Third);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
         reading.setText(R.string.ThirdReading);

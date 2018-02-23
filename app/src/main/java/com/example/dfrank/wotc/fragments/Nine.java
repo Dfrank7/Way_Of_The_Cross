@@ -43,6 +43,7 @@ public class Nine extends Fragment {
         Glide.with(this)
                 .load(R.drawable.nine)
                 .into(imageView);
+        title.setText(R.string.Ninth);
         verse.setText(R.string.verse);
         reply.setText(R.string.reply);
         reading.setText(R.string.NinthReading);

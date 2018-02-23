@@ -51,6 +51,7 @@ public class Fourteen extends Fragment {
         ourFather.setText(R.string.OurFather);
         hailMary.setText(R.string.HailMary);
         glory.setText(R.string.Glory);
+        title.setText(R.string.Fourteenth);
         return view;
     }
 }

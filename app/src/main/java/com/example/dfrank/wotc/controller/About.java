@@ -13,7 +13,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
 import com.bumptech.glide.Glide;
 import com.example.dfrank.wotc.R;
@@ -39,8 +38,8 @@ public class About extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about_main);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setActionBar(toolbar);
+        android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         ButterKnife.bind(this);
         initCollapsingToolbar();

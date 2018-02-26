@@ -36,62 +36,62 @@ public class About extends AppCompatActivity {
     TextView name;
     //    @BindView(R.id.toolbar)
 //    android.support.v7.widget.Toolbar toolbar;
-    @BindView(R.id.imageView2)
+    @BindView(R.id.imageView)
     ImageView imageView;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.detail_layout);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setContentView(R.layout.about_main);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         initCollapsingToolbar();
         ButterKnife.bind(this);
         initCollapsingToolbar();
-//        about.setText(R.string.AboutWOTC);
-//        develped.setText(R.string.Testing);
-//        name.setText("Oladipo Siyanbola");
-//        Glide.with(this)
-//                .load(R.drawable.station_of_the_cross)
-//                .into(imageView);
-//        name.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startImplicitIntent();
-//            }
-//        });
-//    }
-//    private void startImplicitIntent(){
-//        Intent intent = null;
-//        try {
-//            this.getPackageManager().getPackageInfo("com.twitter.android", 0);
-//            intent = new Intent(Intent.ACTION_VIEW, Uri.parse("twitter://user?screen_name=dfrank300"));
-//            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//        } catch (PackageManager.NameNotFoundException e) {
-//            e.printStackTrace();
-//            intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/dfrank300"));
-//        }
-//        intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/dfrank300"));
-//
-//        PackageManager packageManager = getPackageManager();
-//        List<ResolveInfo> activities = packageManager.queryIntentActivities(intent,
-//                PackageManager.MATCH_DEFAULT_ONLY);
-//        boolean isIntentSafe = activities.size() > 0;
-//
-//        if (isIntentSafe){
-//            this.startActivity(intent);
-//        }else {
-//            Toast.makeText(this, "No app available", Toast.LENGTH_SHORT).show();
-//        }
+        about.setText(R.string.AboutWOTC);
+        develped.setText(R.string.Testing);
+        name.setText("Oladipo Siyanbola");
+        Glide.with(this)
+                .load(R.drawable.station_of_the_cross)
+                .into(imageView);
+        name.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startImplicitIntent();
+            }
+        });
+    }
+    private void startImplicitIntent(){
+        Intent intent = null;
+        try {
+            this.getPackageManager().getPackageInfo("com.twitter.android", 0);
+            intent = new Intent(Intent.ACTION_VIEW, Uri.parse("twitter://user?screen_name=dfrank300"));
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+            intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/dfrank300"));
+        }
+        intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/dfrank300"));
+
+        PackageManager packageManager = getPackageManager();
+        List<ResolveInfo> activities = packageManager.queryIntentActivities(intent,
+                PackageManager.MATCH_DEFAULT_ONLY);
+        boolean isIntentSafe = activities.size() > 0;
+
+        if (isIntentSafe){
+            this.startActivity(intent);
+        }else {
+            Toast.makeText(this, "No app available", Toast.LENGTH_SHORT).show();
+        }
 
     }
 
     private void initCollapsingToolbar() {
         final CollapsingToolbarLayout collapsingToolbarLayout =
-                (CollapsingToolbarLayout) findViewById(R.id.collapsing);
+                 findViewById(R.id.collapsing);
         collapsingToolbarLayout.setTitle(" ");
-        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
+        AppBarLayout appBarLayout = findViewById(R.id.appbar);
         appBarLayout.setExpanded(true);
 
         appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {

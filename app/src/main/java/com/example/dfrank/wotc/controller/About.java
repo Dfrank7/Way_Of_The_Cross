@@ -34,8 +34,6 @@ public class About extends AppCompatActivity {
     TextView develped;
     @BindView(R.id.name)
     TextView name;
-    //    @BindView(R.id.toolbar)
-//    android.support.v7.widget.Toolbar toolbar;
     @BindView(R.id.imageView)
     ImageView imageView;
 
@@ -50,7 +48,7 @@ public class About extends AppCompatActivity {
         ButterKnife.bind(this);
         initCollapsingToolbar();
         about.setText(R.string.AboutWOTC);
-        develped.setText(R.string.Testing);
+        develped.setText(R.string.developed);
         name.setText("Oladipo Siyanbola");
         Glide.with(this)
                 .load(R.drawable.station_of_the_cross)
